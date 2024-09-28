@@ -39,9 +39,78 @@ const Landing = () => {
       </div>
       <div className='bg-white h-full '>
         <div>
-          <h1 className='font-semibold mt-28 text-[#FF6700] text-4xl '>Choose a plan that <br />  works for you</h1>
+
+          <h1 className='font-semibold mt-28 ml-14 mb-8 text-[#FF6700] text-5xl '>Choose a plan that <br />  works for you</h1>
+
+          <div className='flex'>
+
+
+
+            <div className='bg-gradient-to-bl  from-[#401F3E] to-[#3F2E56] text-white w-1/4 p-8 rounded-xl flex flex-col m-auto hover:shadow-md hover:shadow-[#FF6700] transition ease-in-out delay-100 hover:scale-110 duration-500 cursor-pointer'>
+              <h3 className='font-semibold text-2xl'>Free</h3>
+              <h2 className='font-bold text-4xl '>FREE</h2>
+              <p className='font-light text-md mb-6'>forever free for individuals and small teams up to 3</p>
+
+              <div className='mb-6'> 
+              <ul className='flex flex-col gap-1'>
+                <li><span><i class='bx bx-check'></i></span>Free Meal Plan</li>
+                <li><span><i class='bx bx-check'></i></span>Free Talks</li>
+                <li><span><i class='bx bx-check'></i></span>1 User</li>
+                <li><span><i class='bx bx-check'></i></span>Limited Merchandise</li>
+              </ul>
+              </div>
+              <div className='flex justify-center'>
+              <button className='bg-white transition ease-in-out flex items-center gap-14 py-1 transform hover:-translate-y-2 delay-75 duration-300  px-4 text-[#401F3E] font-medium hover: text-md rounded-full text-left'> Start for free <div className='h-8 flex justify-center items-center text-xl w-8 rounded-full bg-[#401F3E]'><i class='bx bx-right-arrow-alt text-white font-semibold ' ></i></div></button>
+              </div>
+            </div>
+
+            <div className='bg-gradient-to-bl  from-[#401F3E] to-[#3F2E56] text-white border-2 border-black w-1/4 p-8 rounded-xl flex flex-col m-auto hover:shadow-md hover:shadow-[#FF6700] transition ease-in-out delay-100 hover:scale-110 duration-500 cursor-pointer'>
+              <h3 className='font-semibold text-2xl'>Free</h3>
+              <h2 className='font-bold text-4xl mb-2'>$25</h2>
+              
+              <p className='font-light text-md mb-6'>forever free for individuals and small teams up to 3</p>
+
+              <div className='mb-6'> 
+              <ul className='flex flex-col gap-1'>
+                <li><span><i class='bx bx-check'></i></span>Free Meal Plan</li>
+                <li><span><i class='bx bx-check'></i></span>Free Talks</li>
+                <li><span><i class='bx bx-check'></i></span>1 User</li>
+                <li><span><i class='bx bx-check'></i></span>Limited Merchandise</li>
+              </ul>
+              </div>
+              <div className='flex justify-center'>
+              <button className='bg-white transition ease-in-out flex items-center gap-14 py-1 transform hover:-translate-y-2 delay-75 duration-300  px-4 text-[#401F3E] font-medium hover: text-md rounded-full text-left'> Start for free <div className='h-8 flex justify-center items-center text-xl w-8 rounded-full bg-[#401F3E]'><i class='bx bx-right-arrow-alt text-white font-semibold ' ></i></div></button>
+              </div>
+            </div>
+
+            <div className='bg-gradient-to-bl  from-[#401F3E] to-[#3F2E56] text-white border-2 border-black w-1/4 p-8 rounded-xl flex flex-col m-auto hover:shadow-md hover:shadow-[#FF6700] transition ease-in-out delay-100 hover:scale-110 duration-500 cursor-pointer'>
+              <h3 className='font-semibold text-2xl'>Free</h3>
+              <h2 className='font-bold text-4xl mb-2'>$25</h2>
+              <p className='font-light text-md mb-6'>forever free for individuals and small teams up to 3</p>
+
+              <div className='mb-6'> 
+              <ul className='flex flex-col gap-1'>
+                <li><span><i class='bx bx-check'></i></span>Free Meal Plan</li>
+                <li><span><i class='bx bx-check'></i></span>Free Talks</li>
+                <li><span><i class='bx bx-check'></i></span>1 User</li>
+                <li><span><i class='bx bx-check'></i></span>Limited Merchandise</li>
+              </ul>
+              </div>
+              <div className='flex justify-center'>
+              <button className='bg-white transition ease-in-out flex items-center gap-14 py-1 transform hover:-translate-y-2 delay-75 duration-300  px-4 text-[#401F3E] font-medium hover: text-md rounded-full text-left'> Start for free <div className='h-8 flex justify-center items-center text-xl w-8 rounded-full bg-[#401F3E]'><i class='bx bx-right-arrow-alt text-white font-semibold ' ></i></div></button>
+              </div>
+            </div>
+
+            
+          </div>
+
+
+
+
+          
 
         </div>
+        
       </div>
       
     </section>
